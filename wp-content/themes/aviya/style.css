@@ -1,0 +1,109 @@
+/*
+Theme Name: Aviya Kushner
+Theme URI: http://www.aviyakushner.com
+Author: goodspark*
+Author URI: http://www.goodspark.com/
+Description: Custome theme based upon Toolbox by Automattic
+
+*/
+
+
+/* General Element Styles */
+body			{ background: #faebd3 url(images/bg.gif); font: 13px/18px 'Montserrat', sans-serif; margin: 0; padding: 0; color: #523821; }
+a				{ text-decoration: none; }
+a:link			{ color: #8f1616; }
+a:visited		{ color: #8f1616; }
+a:hover			{ color: #8f1616; text-decoration: underline }
+a img			{ border: none; }
+p				{ margin: 0 0 15px 0; }
+h1, h2, h3	{ font-family: 'Stint Ultra Expanded', sans-serif; color: #dd8009 }
+h1				{ font-size: 30px; line-height: 36px; margin-bottom: 10px; } 
+h2				{ font-size: 22px; line-height: 30px; margin-bottom: 10px; } 
+h3				{ font-size: 18px; line-height: 24px; margin: 10px 0; }
+h4, h5  { font-family: 'Montserrat', sans-serif, color: #000000 }
+h4				{ font-size: 15px; line-height: 20px; margin: 5px 0; }
+h5				{ font-size: 14px; line-height: 18px; margin: 5px 0; } 
+label			{ width: 170px; float: left; margin-top: 5px; }
+em				{ font-style: italic; }
+strong			{ font-weight: bold; }
+ul				{ list-style-type: disc; margin: 0 0 20px 35px; }
+li ul			{ list-style-type: circle; margin: 0 0 0 45px; } 
+hr				{ border: 0; border-bottom: 1px dashed #8f1616; background: #fff; margin: 10px 0;  }
+figcaption		{ text-align: right; font-size: 11px; }
+
+/* Form Styles */
+.wpcf7-form input, 
+.wpcf7-form textarea, 
+.wpcf7-form select 				{ display: inline-block; height: 14px; padding: 5px; font-size: 13px; line-height: 18px; color: #808080; border: 1px solid  #ccc; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.wpcf7-form textarea, 
+.wpcf7-form input 				{ position: relative; width: 338px; background-color:  #fff; }
+.wpcf7-form label, 
+.wpcf7-form input, 
+.wpcf7-form select, 
+.wpcf7-form textarea 			{ margin-bottom: 3px !important; }
+.wpcf7-form input[type=submit] 	{ width: 100px; height: 35px; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;}
+.wpcf7-text 					{ width: 250px; }
+.req							{ color: #900; font-style: italic; font-size: 12px; }
+.div.wpcf7-validation-errors 	{ border: 2px solid #900; }
+span.wpcf7-not-valid-tip 		{ top: 0; left: 350px; padding: 0 2px 0 35px; border: 0; color: #900; font-weight: bold; }
+span.wpcf7-list-item 			{ margin: 0; }
+input[type="checkbox"] 			{ width: 30px; }
+input[type="file"] 				{ border: none; }
+input[type=checkbox]  			{ margin: 6px 0; }
+input[type=submit] 				{ background: #686536; border: 1px solid #686536; color: #fff; padding: 0 10px 5px 10px; }
+input[type=submit]:hover		{ border: 1px solid #686536; background: #fff; color: #686536; }
+
+/* Layout Styles */
+#container	{ width: 960px; margin: 25px auto; }
+#nav		{ position: relative; width: 230px; float: left; text-align: right; }
+#logo		{ width: 209px; height: 120px; background:url(images/logo.png) no-repeat; display:block; }
+#logo h1	{ display: none; }
+#nav ul		{ list-style: none; text-transform: uppercase; margin: 80px 50px 0 0; }
+#nav li		{ display: block; margin: 15px 0; font: 16px/16px 'Stint Ultra Expanded', sans-serif; }
+#nav li a	{ color: #ae5803; font-weight: bold; }
+#content	{ margin-left: 230px; background: url(images/page-bg.png); padding: 20px; position: relative; }
+#footer		{ padding: 30px 0; margin-left: 230px; font-size: 11px; line-height: 18px; background: url(images/page-bottom.png) top right no-repeat; }
+#footer .fltrt					{ text-align: right; }
+#footer img						{ margin-right: 10px; }
+.clearfix:after 				{ visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix             	{ zoom: 1; } /* IE6 */
+*:first-child+html .clearfix 	{ zoom: 1; } /* IE7 */
+
+/* General Classes */
+.fltleft	{ float: left; }
+.fltrt		{ float: right; text-align: right }
+.ctr		{ text-align: center; }
+.big		{ font-size: 110%; }
+.small		{ font-size: 80%; }
+.light		{ color: #999; }
+
+
+/* Homepage */
+.page section	{ position: absolute; bottom: 20px; width: 300px; top: 50px;}
+
+/* Pages */
+#covers			{ margin: 10px 0; }
+.cover			{ width: 165px; float: left; margin: 0 10px 15px 0; text-align: center; font-size: 11px; line-height: 14px; height: 260px }
+#covers .cover:nth-child(4n+4) { margin-right: 0px; } 
+
+/* WP Classes */
+
+.alignleft 		{ float: left; }
+.alignright 	{ float: right; }
+.aligncenter 	{ clear: both; display: block; margin-left: auto; margin-right: auto; }
+img.alignleft 	{ margin-right: 1em; }
+img.alignright 	{ margin-left: 1em; }
+.wp-caption 	{ padding: .5em; text-align: center; }
+.wp-caption img { margin: .25em; }
+.wp-caption .wp-caption-text { margin: .5em; }
+.assistive-text	{ display: none; }
+
+/* Lex's Styles */
+
+.intro {
+	margin-top: 70px;
+}
+
+#post-194 .entry-title {display: none; }
+
+#post-13 .entry-title {display: none; }
